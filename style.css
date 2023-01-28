@@ -1,0 +1,94 @@
+body {
+    background-color: antiquewhite;
+}
+
+.icons {
+    color: whitesmoke;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'ubuntu', sans-serif;
+    color: white;
+    font-display: flex;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.brand img {
+    width: 44px;
+    padding: 1px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.9rem;
+    font-weight: bolder;
+}
+
+nav ul li {
+    padding: 0 10px;
+}
+
+.container {
+    min-height: 65vh;
+    background-color: rgb(180, 153, 153);
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 85%;
+    border-radius: 12px;
+    background-image: url("old.jpg");
+    image-orientation: flip;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px 0;
+    color: white;
+    bottom: 0;
+}
+
+#myProgressBar {
+    width: 800vh;
+}
+
+.songItom {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songItom img {
+    width: 43px;
+    
+}
